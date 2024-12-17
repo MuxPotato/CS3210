@@ -18,3 +18,11 @@ Implementing a highly parallelized CUDA program to detect viral DNA sequences (s
 ### Assignment 3: MRT Network Simulation (OpenMPI)
 Simulate a simplified Mass Rapid Transit (MRT) network using MPI for distributed-memory parallel programming. The simulation involved trains moving across stations, managing loading/unloading passengers, and ensuring synchronization at shared tracks and platforms. The program handled train spawning, queuing, direction changes at terminal stations, and conflicts on shared links. Key challenges included implementing efficient communication between MPI processes to maintain correctness and achieving performance scalability across nodes. The output tracked the trains' positions over simulation ticks, ensuring correctness and speedup compared to a sequential reference implementation.
 
+## Understanding the Assignments
+Each assignment subfolder contains the code, input/output samples, and a PDF report explaining my approach, design decisions, and optimizations:
+
+- [**Assignment 1: Parallel Particle Collision Simulator**](A1/A1_Report.pdf)  
+- [**Assignment 2: Virus Signature Scanning with CUDA**](A2/A2_Report.pdf)  
+- [**Assignment 3: MRT Network Simulation with MPI**](A3/A3_Report.pdf)
+
+
