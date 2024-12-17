@@ -1,0 +1,23 @@
+Running job: lab2-mmomp-i7-modified!
+We are running on soctf-pdc-013.d1.comp.nus.edu.sg
+Job started at Sun Sep 15 01:41:36 AM +08 2024
+Arguments to your executable: 1500 4
+Compiling...
+Running...
+Matrix multiplication took 4.05 seconds
+Usage: ./mm-omp <size> <threads>
+Matrix multiplication of size 1500 using 4 threads
+
+ Performance counter stats for './mm-omp 1500 4':
+
+   199,633,565,360      instructions              #    3.10  insn per cycle         
+    64,388,195,460      cycles                                                      
+     6,750,000,001      fp_arith_inst_retired.scalar_single                                   
+
+       4.132407671 seconds time elapsed
+
+      16.310021000 seconds user
+       0.020007000 seconds sys
+
+
+Job ended at Sun Sep 15 01:41:41 AM +08 2024

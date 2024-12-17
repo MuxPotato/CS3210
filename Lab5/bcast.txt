@@ -1,0 +1,4 @@
+Data size = 20000000, Trials = 10
+Avg my_bad_bcast time =	0.194660 sec
+Avg MPI_Bcast time =	0.001079 sec
+MPI_Bcast Speedup =	180.382889x

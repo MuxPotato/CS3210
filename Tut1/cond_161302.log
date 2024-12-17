@@ -1,0 +1,32 @@
+Running cond job!
+We are running on soctf-pdc-005.d1.comp.nus.edu.sg
+Job started at Thu Sep  5 04:26:26 PM +08 2024
+inc_count(): thread 2, count = 1, unlocking mutex
+Starting watch_count(): thread 1
+inc_count(): thread 3, count = 2, unlocking mutex
+watch_count(): thread 1 Count= 2. Going into wait...
+inc_count(): thread 3, count = 3, unlocking mutex
+inc_count(): thread 2, count = 4, unlocking mutex
+inc_count(): thread 3, count = 5, unlocking mutex
+inc_count(): thread 2, count = 6, unlocking mutex
+inc_count(): thread 3, count = 7, unlocking mutex
+inc_count(): thread 2, count = 8, unlocking mutex
+inc_count(): thread 3, count = 9, unlocking mutex
+inc_count(): thread 2, count = 10, unlocking mutex
+inc_count(): thread 3, count = 11, unlocking mutex
+incrementer(): thread 2, count = 12 Threshold reached. Just sent signal.
+inc_count(): thread 2, count = 12, unlocking mutex
+watch_count(): thread 1 Condition signal received. Count= 12
+watch_count(): thread 1 Updating the value of count...
+watch_count(): thread 1 count now = 137.
+watch_count(): thread 1 Unlocking mutex.
+inc_count(): thread 3, count = 138, unlocking mutex
+inc_count(): thread 2, count = 139, unlocking mutex
+inc_count(): thread 3, count = 140, unlocking mutex
+inc_count(): thread 2, count = 141, unlocking mutex
+inc_count(): thread 3, count = 142, unlocking mutex
+inc_count(): thread 2, count = 143, unlocking mutex
+inc_count(): thread 3, count = 144, unlocking mutex
+inc_count(): thread 2, count = 145, unlocking mutex
+Main(): Waited and joined with 3 threads. Final value of count = 145. Done.
+Job ended at Thu Sep  5 04:26:36 PM +08 2024
